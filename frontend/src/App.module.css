@@ -1,0 +1,88 @@
+.userinfo {
+	padding: 2% 3% !important;
+}
+
+.healthbar {
+	color: var(--red);
+}
+
+.heart {
+	font-size: 1rem !important;
+}
+
+.dark {
+	background-color: var(--tgui--plain_background) !important;
+}
+
+body {
+	background-color: var(--dark);
+}
+
+.toptable {
+	background: var(--dark);
+}
+
+.teamhash, .teamavatar, .teamname, .teampoints {
+	margin: 5rem;
+}
+
+table {
+	width: 100%;
+	padding: 2rem;
+}
+
+td {
+	text-align: center;
+}
+
+td:not(:first-child) {
+  padding-top:1rem;
+}
+
+tr {
+	margin: 0 2rem !important;
+}
+
+.teamhash {
+	width: 15%;
+	transform: translate(0, 15%);
+}
+
+.teamavatar {
+	width: 18%;
+}
+
+.teamname {
+	width: 33%;
+}
+
+.teampoints {
+	with: 33%;
+}
+
+.sword {
+	font-size: 1em;
+	transform: translate(0, 0.15em);
+	padding-left: 0.15em;
+}
+
+.highlight {
+	color: #ebba34 !important;
+}
+
+.heal {
+	color: #32a852 !important;
+}
+
+.damage {
+	color: #cc3025 !important;
+}
+
+.heal_icon {
+	transform: translate(0, 0.3rem) !important;
+}
+
+.invdivider:not(:last-child) {
+	border-bottom: 0.05rem solid #eeeeee;
+}
+
